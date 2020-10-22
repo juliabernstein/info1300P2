@@ -115,6 +115,9 @@ For my first version of the mobile layout, I wanted to have everything in a colu
 ![Version 2 of Mobile Layout](mobile2.png)
 For my second version of the mobile layout, I switched the nav bar and h1, and put the h2 inside the main, but the general concept is the same as the first version.
 
+![All layouts](allLayouts.png)
+This is a sketch of what each page's layout should look like, on both mobile and desktop.
+
 ## Design
 
 ### Final Design (Milestone 2)

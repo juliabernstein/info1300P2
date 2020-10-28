@@ -1,0 +1,151 @@
+body{
+  background-color: #fff8e7;
+  color: black;
+  font-family: serif;
+  font-weight: lighter;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  color: #fff8e7;
+  background:  url(../images/apples.png) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  height: 210px;
+}
+
+header h1 {
+  font-weight: lighter;
+  padding: 0;
+  margin: 0;
+  font-size: 3em;
+  text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+  margin: 10px 0px 0px 0px;
+}
+
+header p {
+  background-color: rgba(144, 35, 35, 0.5);
+  padding: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+header h2 {
+  padding: 0;
+  padding-left: 10px;
+  margin: 0;
+  text-align: left;
+  font-family: Snell Roundhand, cursive;
+}
+
+header nav {
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.66);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.main-about {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-schedule {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.about-description {
+  width: 75%;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule-saturday {
+  padding-right: 10px;
+}
+
+.schedule-sunday {
+  padding-left: 10px;
+}
+
+.smallImage {
+  max-width: 300px;
+  height: auto;
+}
+
+header nav ul li {
+  display: inline;
+  text-decoration: none;
+  margin: 10px;
+  padding: 20px;
+}
+
+nav a {
+  color:  white;
+  text-decoration: none;
+}
+
+img{
+  width: 450px;
+  height: 100%;
+}
+
+@media (min-width: 900px) {
+
+  .galleryBody {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+  }
+
+  .row1 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+  }
+
+  .row2 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+  }
+
+  .row3 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mapImage {
+    width: 900px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+@media (min-width: 600px) and (max-width: 900px){
+  .mapImage {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 100%;
+  }
+}

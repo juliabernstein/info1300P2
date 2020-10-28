@@ -16,7 +16,7 @@ You can use bullet points and lists, or full paragraphs, or a combo, whichever i
 ### Audience (Milestone 1)
 > Briefly explain who the intended audience(s) is for your website. Be specific and justify why this audience is appropriate for your site. Remember, you may not be the audience.
 
-My intended audience is Cornell students who have a history of attending festivals. This audience is appropriate for my site because this type of person would likely attend the Ithaca Apple Fest, and would likely need to visit the website for planning purposes.
+My intended audience is college students in Ithaca who have a history of attending festivals or are interested in attending Apple Fest. This audience is appropriate for my site because this type of person would likely attend the Ithaca Apple Fest, and would likely need to visit the website for planning purposes.
 
 
 ### Semi-Structured Interview Questions (Milestone 1)
@@ -124,32 +124,45 @@ This is a sketch of what each page's layout should look like, on both mobile and
 > Include the final sketches for each of your pages.
 
 **Desktop Design:**
-TODO
-
+![Homepage Desktop Version](homepageDesktop.jpg)
+![Gallery Desktop Version](galleryDesktop.jpg)
+![Activities Desktop Version](activitiesDesktop.jpg)
+![Info Desktop Version](infoDesktop.jpg)
 **Mobile Design:**
-TODO
+![Homepage Mobile Version](homepageMobile.jpg)
+![Gallery Mobile Version](galleryMobile.jpg)
+![Activities Mobile Version](activitiesMobile.jpg)
+![Info Mobile Version](infoMobile.jpg)
+
+![Cardsort Version 2](newCardSort.jpg)
 
 
 ### Design Rationale (Milestone 2)
 > Explain why your design is appropriate for your audience. Specially, why does your content organization, navigation, and site design/layout meet the needs of your users?
 
-TODO
+My design is appropriate for my audience of college students in Ithaca because it presents all of the information in a concise way, gives info and links to necessary websites that college students might need on the info page, and the gallery provides a way for college students to get excited about the types of activities they might try.
 
 
 ### Responsive Design Considerations (Milestone 2)
 > Explain how you adapted your design to be responsive (support both mobile and desktop versions).
 
-TODO
+For the gallery, I changed it from just single column flex box with each picture under one another to a 2 column flexbox (using row flexboxes) to fill up the space of the desktop layout. Additionally, I changed the size of my map schedule to conveniently fill up the space of the page.
 
 
 ### Coded Draft Desktop Website (Milestone 2)
 > Include screenshots of the draft version of your desktop design AND your mobile design. Include a screenshot for every page. If you're using Firefox, click the 3 dot button in the address bar and select "Take a Screenshot."
 
 **Desktop Screenshots:**
-TODO
+![Desktop Homepage](homePage.png)
+![Desktop Activities Page](activitiesPage.jpg)
+![Desktop Info Page](infoPage.png)
+![Desktop Gallery Page](galleryPage.jpg)
 
 **Mobile Screenshots:**
-TODO
+![Mobile Homepage](homePageMobile.png)
+![Mobile Gallery](galleryPageMobile.jpg)
+![Mobile Activities](activitiesPageMobile.jpg)
+![Mobile Info](infoPageMobile.png)
 
 
 ## User Testing (Round 1)

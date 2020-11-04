@@ -170,17 +170,19 @@ For the gallery, I changed it from just single column flex box with each picture
 ### User Testing Plan (Milestone 3)
 > Plan out your user testing tasks before doing your user testing. These must be actual user testing tasks. **Tasks are not questions!**
 
-1. TODO
+1. You are going to Apple Fest with some friends and are looking for entertainment. Identify 3 activities to see/do at the festival.
 
-2. TODO
+2. You have arrived at the festival with a car. Determine a location to park your car near Ithaca Town Hall.
 
-3. TODO
+3. Determine what event will be occuring on Sunday, September 30th, at West State St. at 2:15.
 
 
 ### User 1 - Testing Notes (Milestone 3)
 > When conducting user testing, you should take notes during the test. Place your notes here.
 
-TODO
+1. User had no problem going to the activities section and scrolling down the page to see the activities.
+2. User went to the map and quickly identified the parking lot near the town hall, but squinted a little bit to see it.
+3. User was on the info page, so she hesitated a little bit but eventually went to the homepage and found the schedule. She first looked at the wrong location for Sunday, but this is due to the fact that was written above it.
 
 
 ### User 1 (Milestone 3)
@@ -188,39 +190,67 @@ TODO
 
 1. Who is your user, e.g., where does the user come from, what is the user's job, characteristics, etc.?
 
-TODO
+The user is a student at Cornell University. She is from California and has been to festivals like Coachella and lots of fairs in San Diego, and in addition, loves going to farmers markets, including Ithaca Farmers Market. She is a sophomore and is very interested in film and American history.
 
 
 2. Does the user belong to your audience of the site? (Yes / No)
 > If “No”, what’s your strategy of associating the user test results to your audience’s needs and wants? How can your re-design choices based on the user tests make a better fit for the audience?
 
-TODO
+Yes. She loves going to festivals and is a student in a college in Ithaca.
 
 
 ### User 1 (Milestone 3)
 > Report the results of your user's test. You should explain **what the user did**, describe the user's **reaction/feedback** to the design, **reflect on the user's performance**, determine what **re-design choices** you will make **for EACH task**. You can also add any additional comments. See the example design journey for an example of what this would look like.
 
-Task: TODO: copy task here
+Task 1: You are going to Apple Fest with some friends and are looking for entertainment. Identify 3 activities to see/do at the festival.
 - **Did you evaluate the desktop or mobile design?**
-  - Pick one: desktop/mobile
+  - Desktop
 - **How did the user do? Did they meet your expectation?**
-  - TODO
+  - The user met my expectations in the way they handled their tasks.
 - **User’s reaction / feedback to the design** (e.g., specific problems or issues found in the tasks)
-  - TODO
+  - The user did not have any issues finding the activities.
 - **Your reflections about the user’s performance to the task**
-  - TODO
+  - The users' successful performance made me confident in the design of my activities page and its visibility in the nav bar.
 - **Re-design choices**
-  - TODO
+  - No need to redesign this page, except possibly to make it more aesthetically pleasing on the eye.
 - **Additional Notes**
-  - TODO: Justify your decisions; additional notes.
+  - This task was particularly straightforward, so I am glad to see that it went smoothly.
 
-TODO...
+  Task 2: You have arrived at the festival with a car. Determine a location to park your car near Ithaca Town Hall.
+  - **Did you evaluate the desktop or mobile design?**
+    - Desktop
+  - **How did the user do? Did they meet your expectation?**
+    - The user did very well and completed the task successfully.
+  - **User’s reaction / feedback to the design** (e.g., specific problems or issues found in the tasks)
+    - The user moved in closer to the computer to find the parking spot, but it then became automatically identifiable.
+  - **Your reflections about the user’s performance to the task**
+    - The user's performance went how I expected, because reading a map takes a bit of time and focus.
+  - **Re-design choices**
+    - Due to the fact that the map is considerably large, I don't think I should increase the size on the desktop version. Additionally, in terms of colors, the map is accessible for those with visual impairments so even without the colors, all of the titles can still be easily seen on the map and the legend.
+  - **Additional Notes**
+    - This task made me recondsider the existance of the map, but after some thought, I have come to the conclusion that the map is a necessary part of the website. I considered replacing it with text, but I think a visual representation is necessary for users who may need geographical assistance, especially if they have a car.
+
+    Task 3: Determine what event will be occuring on Sunday, September 30th, at West State St. at 2:15.
+    - **Did you evaluate the desktop or mobile design?**
+      - Desktop
+    - **How did the user do? Did they meet your expectation?**
+      - The user met my expectations and found the result within a matter of seconds.
+    - **User’s reaction / feedback to the design** (e.g., specific problems or issues found in the tasks)
+      - The user was initially on the info page from the last task, so she had to take some time to figure out where the schedule might me. She then landed on the homepage and found the schedule. She initially looked at the wrong location but then quickly found the correct one.
+    - **Your reflections about the user’s performance to the task**
+      - The user's performance went how I expected, especially since in most cases the user will start off on the homepage so they won't be as confused as to where the schedule is.
+    - **Re-design choices**
+      - I may increase the font size and weight of the titles like dates and location within the schedule so they are more obvious.
+    - **Additional Notes**
+      - I may consider adding a seperate page for schedule due to the user's struggle
 
 
 ### User 2 - Testing Notes (Milestone 3)
 > When conducting user testing, you should take notes during the test. Place your notes here.
 
-TODO
+1. Took user a second to find activities bar, possibly due to small size of nav bar, but after she clicked on activities it was a fairly easy task.
+2. User was struggling to find parking locations, and had to zoom in to see it.
+3. User quickly found the schedule from the nav bar (I implemented this after the last round of testing) and was looking at the Saturday schedule at first, but quickly realized this and looked in the right place.
 
 
 ### User 2 (Milestone 3)
@@ -228,11 +258,12 @@ TODO
 
 1. Who is your user, e.g., where does the user come from, what is the user's job, characteristics, etc.?
 
-TODO
+My user is a Sophomore at Cornell University. She is from Connecticut and is in a sorority, and she is very into fashion and thrifting. She loves to do activities with friends, and has access to a car.
 
 
 2. Does the user belong to your audience of the site? (Yes / No)
-> If “No”, what’s your strategy of associating the user test results to your audience’s needs and wants? How can your re-design choices based on the user tests make a better fit for the audience?
+
+Yes. She belongs to the audience because she is a student in a college in Ithaca, and she has been to festivals.
 
 TODO
 
@@ -240,27 +271,55 @@ TODO
 ### User 2 (Milestone 3)
 > Report the results of your user's evaluation. You should explain **what the user did**, describe the user's **reaction/feedback** to the design, **reflect on the user's performance**, determine what **re-design choices** you will make **for EACH task**. You can also add any additional comments. See the example design journey for an example of what this would look like.
 
-Task: TODO: copy task here
+Task: You are going to Apple Fest with some friends and are looking for entertainment. Identify 3 activities to see/do at the festival.
 - **Did you evaluate the desktop or mobile design?**
-  - Pick one: desktop/mobile
+  - Mobile
 - **How did the user do? Did they meet your expectation?**
-  - TODO
+  - My user met my expectations in finding the activities pretty quickly
 - **User’s reaction / feedback to the design** (e.g., specific problems or issues found in the tasks)
-  - TODO
+  - My user reacted slowly intitially, struggling to find the activities section in the nav bar, but once she found it she was able to find the activities with no effort at all.
 - **Your reflections about the user’s performance to the task**
-  - TODO
+  - The user's performance was not surprising to me, but it helped me identify a design flaw.
 - **Re-design choices**
-  - TODO
+  - I may choose to redesign my nav bar to be more similar to the nav bar of the wider versions.
 - **Additional Notes**
-  - TODO: Justify your decisions; additional notes.
+  - It is clear that the activities page itself is very straightforward.
 
-TODO...
+  Task: You have arrived at the festival with a car. Determine a location to park your car near Ithaca Town Hall.
+  - **Did you evaluate the desktop or mobile design?**
+    - Mobile
+  - **How did the user do? Did they meet your expectation?**
+    - My user met my expectations, because I was aware of the fact that the map was a bit too small for a user to see without a bit of effort
+  - **User’s reaction / feedback to the design** (e.g., specific problems or issues found in the tasks)
+    - My user went to the info page instinctively, but then had a hard time identifying the parking space.
+  - **Your reflections about the user’s performance to the task**
+    - The user's reaction makes sense, because it is hard to see a map that small.
+  - **Re-design choices**
+    - I may add text descriptions of the map. However, since this is a mobile design, the user could easily zoom into the map.
+  - **Additional Notes**
+    - My design decision depends on whether zooming is an accessibility issue or not.
+
+    Task: Determine what event will be occuring on Sunday, September 30th, at West State St. at 2:15.
+    - **Did you evaluate the desktop or mobile design?**
+      - Mobile
+    - **How did the user do? Did they meet your expectation?**
+      - My user met my expectations, based on the fact that I implemented a schedule page.
+    - **User’s reaction / feedback to the design** (e.g., specific problems or issues found in the tasks)
+      - User struggled at first because she looked at Saturday schedule for a while before looking at the Sunday schedule.
+    - **Your reflections about the user’s performance to the task**
+      - The user's performance makes sense, and makes me reconsider my design for the schedules, especially because in the mobile version the two schedules are not side by side but beneath one another.
+    - **Re-design choices**
+      - Because both of my users struggled with Saturday vs Sunday schedules, I think I will make the headers bolder or more identifiable
+    - **Additional Notes**
+      - This problem was unexpected, and the fact that both users struggled means that it must be fixed
+
+
 
 
 ### Changes Based on User Testing (Milestone 3)
 > What changes did you make to your design based on user testing?
 
-TODO
+I added a schedule section due to my 1st user's response to one of the tasks that involved using the schedule. I also increased the size of the map for the desktop version. I changed the font-weight and size of the h3 and h4 elements in schedule to make them more visible. Additionally, I completely changed the nav bar of the mobile version so it is the same as that of the desktop version, keeping the same visibility.
 
 
 ## User Testing (Round 2)

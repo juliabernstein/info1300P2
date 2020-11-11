@@ -5,6 +5,8 @@ body{
   font-weight: lighter;
 }
 
+/* BEGIN HEADER */
+
 header {
   display: flex;
   flex-direction: column;
@@ -18,7 +20,6 @@ header {
 header h1 {
   font-weight: lighter;
   padding: 0;
-  margin: 0;
   font-size: 3em;
   text-shadow:
     -1px -1px 0 black,
@@ -33,29 +34,17 @@ header p {
   font-weight: lighter;
   color: #e9c89c;
   margin: 0px;
-  padding-bottom: 5px;
-  font-family: sans-serif
 }
 
 header h2 {
-  padding: 0;
   color:  #e9c89c;
-  padding-left: 10px;
+  padding: 0px 0px 0px 10px;
   margin: 0;
   text-align: left;
-  font-family: Snell Roundhand, cursive;
-}
-
-h2 {
-  color: #6a2c27;
-  font-size: 32px;
-  display: inline-block;
-  font-family: sans-serif;
-}
-
-h3 {
-  font-size: 26px;
-  font-family: sans-serif;
+  font-style: italic;
+  font-size: 28px;
+  font-weight: lighter;
+  font-family: serif;
 }
 
 header nav {
@@ -64,17 +53,53 @@ header nav {
   font-size: 18px;
 }
 
+header nav ul {
+  margin: 10px;
+  padding-left: 0px;
+}
+
+nav a {
+  color:  #e9c89c;
+  text-decoration: none;
+}
+
+/* END HEADER */
+
+/* HEADINGS FORMAT */
+
+h2 {
+  color: #6a2c27;
+  font-size: 35px;
+  font-style: italic;
+  font-family: serif;
+}
+
+h3 {
+  font-size: 26px;
+  font-family: serif;
+  font-weight: lighter;
+
+}
+
+.infoTitle {
+  text-align: center;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* END HEADINGS FORMAT */
+
 main {
   display: flex;
   flex-direction: column;
   font-size: 20px;
-}
-
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.66);
 }
 
 .main-about {
@@ -89,17 +114,9 @@ main {
   padding: 10px;
 }
 
-cite {
-  display: block;
-}
-
-h3 {
-  font-weight: bold;
-}
-
-h4 {
-  font-size: 20px;
-  font-weight: bold;
+.download{
+  font-size: 25px;
+  text-align: center;
 }
 
 .about-description {
@@ -123,42 +140,12 @@ h4 {
 
 .scheduleTitle {
   text-align: center;
-  font-size: 30px;
 }
 
-header nav ul {
-  margin: 10px;
-  padding-left: 0px;
-}
-
-header nav ul li {
-  background-color: rgba(34, 4, 4, 0.6);
-  display: inline;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  text-decoration: none;
-  margin: 10px;
-  border-color: black;
-  border-style: solid;
-  border-width: thin;
-  border-radius: 10px;
-}
-
-nav a {
-  color:  #e9c89c;
-  text-decoration: none;
-}
-
-img{
-  width: 430px;
-}
 
 .row1, .row2, .row3 {
   display: block;
   flex-direction: row;
-  padding-bottom: 30px;
   justify-content: space-around;
 }
 
@@ -169,28 +156,7 @@ img{
 
 @media (max-width: 600px){
 
-  .mapImage {
-    width: 450px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .main-about {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-  }
-
-  .main-schedule {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    margin-bottom: 20px;
-  }
-
-  .schedule-saturday {
-    margin-bottom: 10px;
-  }
+  /* HEADER FORMAT */
 
   header nav {
     padding-left: 2px;
@@ -211,103 +177,133 @@ img{
 
   header nav ul li {
     display: inline;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding: 5px;
+    margin: 2px;
+    font-size: 15px;
     text-decoration: none;
-    background-color: rgba(34, 4, 4, 0.6);
-    border-color: black;
     border-style: solid;
     border-width: thin;
+    border-color: black;
+    background-color: rgba(34, 4, 4, 0.6);
     border-radius: 10px;
   }
   header p {
     font-size: 15px;
   }
 
-  h2, h3 {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
+  /* END HEADER FORMAT */
 
-  .galleryImg {
+  /* IMAGE FORMATTING */
+
+  .mapImage, .a-right, .activitiePic, .smallImage, .galleryPic {
     margin-left: auto;
     margin-right: auto;
+  }
+
+
+  .mapImage {
+    width: 95%;
   }
 
   .activitiesPic {
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
+    width: 100%;
+  }
+
+  .smallImage {
+    width: 70%;
+  }
+
+  img, .galleryPic {
+    width: 300px;
+  }
+
+
+  .a-right img, .activitiesPic img {
+    display: block;
+    margin: auto;
+  }
+
+  /* END IMAGE FORMATTING */
+
+  .main-about, .main-schedule {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .about-image {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-schedule {
+    padding: 10px;
+  }
+
+  .schedule-saturday {
+    margin-bottom: 10px;
+  }
+
+  .a-description {
+    font-size: 18px;
+    margin: 0px 0px 70px 0px;
+  }
+
+  h2 {
+    margin: 10px 0px 10px 0px;
+  }
+
+  h3 {
+    margin: 15px 0px 15px 0px;
+  }
+
+  h2, h3 {
+    text-align: center;
   }
 
   .about-description {
     margin-left: auto;
     margin-right: auto;
+    width: 95%;
     padding: 0px;
-  }
-
-  .about-image {
-    padding: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .smallImage {
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .galleryBody {
     display: flex;
     flex-direction: column;
-  }
-
-  img {
-    width: 300px;
-  }
-
-  .galleryPic {
-    width: 300px;
-    margin: 0px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .row1 {
     margin: 0px;
     padding: 0px;
   }
+
+  p {
+    margin: 10px;
+  }
 }
 
 
-@media (min-width: 600px) and (max-width: 900px){
+@media (min-width: 601px) and (max-width: 899px){
+
+  /* IMAGE FORMATTING */
 
   .smallImage {
-    width: 400px;
+    width: 100%;
+  }
+
+  .mapImage, .galleryPic {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .mapImage {
-    margin-left: auto;
-    margin-right: auto;
     width: 600px;
     height: 100%;
   }
 
-  .galleryBody {
-    display: flex;
-    flex-direction: column;
-    padding-left: 30px;
-  }
-
   .galleryPic {
     width: 500px;
-    margin: 0px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .galleryPic img {
@@ -318,33 +314,80 @@ img{
     padding-bottom: 30px;
   }
 
+  .a-right img, .activitiePic img {
+    display: block;
+    width: 580px;
+    margin: auto;
+  }
+
+  .galleryImg{
+    width: 430px;
+  }
+
+  /* END IMAGE FORMATTING */
+
+  h2, h3 {
+    text-align: center;
+  }
+
+
+  .galleryBody {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+  }
+
   .row1, .row2, .row3 {
     display: block;
     flex-direction: row;
     padding-bottom: 30px;
     justify-content: space-around;
   }
+
+  h3 {
+    text-align: center;
+  }
+
+  header nav ul li {
+    background-color: rgba(34, 4, 4, 0.6);
+    display: inline;
+    padding: 3px 15px 3px 15px;
+    text-decoration: none;
+    margin: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 10px;
+    font-size: 19px;
+  }
+
+}
+
+@media (min-width: 600px) and (max-width: 1023px){
+  .schedule-sunday {
+    border-left: none;
+  }
 }
 
 @media (min-width: 900px) {
 
-  .galleryBody {
-    display: flex;
-    flex-direction: column;
+  /* IMAGE FORMATTING */
+
+  header nav ul li {
+    background-color: rgba(34, 4, 4, 0.6);
+    display: inline;
+    padding: 3px 15px 3px 15px;
+    text-decoration: none;
+    margin: 15px;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 10px;
+    font-size: 24px;
   }
 
-  .galleryPic {
+  .galleryPic, .smallImage {
     width: 450px;
-  }
-
-  .row1, .row2, .row3 {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 30px;
-  }
-
-  .about-image {
-    width: 50%;
   }
 
   .mapImage {
@@ -354,12 +397,61 @@ img{
     margin-right: auto;
   }
 
-  .smallImage {
-    width: 450px;
-  }
-
   .activitiesPic {
     width: 600px;
   }
+
+  /* Format activites page */
+
+  .activities {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .activity {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .a-right {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+  }
+
+  .a-right h3 {
+    margin-top: 0px;
+    font-weight: lighter;
+    font-size: 30px;
+    font-family: serif;
+  }
+
+  .a-left {
+    margin-bottom: 30px;
+  }
+
+  .a-description {
+    margin-bottom: 40px;
+  }
+
+  .galleryImg{
+    width: 430px;
+  }
+
+  /* END IMAGE FORMATTING */
+
+  .galleryBody {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row1, .row2, .row3 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+    margin-left: 20px;
+  }
+
 
 }
